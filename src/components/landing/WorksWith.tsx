@@ -3,7 +3,7 @@ import Image from 'next/image';
 import WorksWith1 from '@/assets/landing/workswith1.svg';
 import WorksWith2 from '@/assets/landing/workswith2.png';
 import WorksWith3 from '@/assets/landing/workswith3.svg';
-import WorksWith4 from '@/assets/landing/workswith4.svg';
+import WorksWith4 from '@/assets/landing/workswith4.png';
 import WorksWith5 from '@/assets/landing/workswith5.svg'
 
 import { useIsVisible } from './useIsVisible';
