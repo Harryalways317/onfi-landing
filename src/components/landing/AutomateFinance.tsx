@@ -58,7 +58,7 @@ const AutomateFinance = () => {
   return (
     <div ref={refEl} className={`section-inner-shadow flex flex-col items-center w-full gap-16 py-20 transition-all ease-in duration-500 ${isVisible ? "translate-y-0" : "translate-y-20"}`}>
         <div className='poppins-semibold text-[32px] leading-[42px] sm:text-[36px] sm:leading-[48px] md:text-[48px] md:leading-[56px] lg:text-[64px] px-6 sm:px-10 custom-text-gradient text-center lg:leading-[84px]'>
-            Automate Financial Compliance<span className='hidden xl:inline'><br/></span> with NeoGPT Compliance360
+            Automate Financial Compliance<span className='hidden xl:inline'><br/></span> with NeoGPT ComplianceOS AI Agent
         </div>
         <div className='flex items-center w-full justify-center gap-16 px-10'>
             <div className='flex flex-row flex-wrap items-center justify-center xl:flex-col gap-8'>
