@@ -18,7 +18,7 @@ interface ArticleCardProps {
 const uiData:ArticleCardProps[] = [
     {
         title:"Your Story",
-        description:"OnFinance.ai raises\n $1.05m to productionize\n their Al copilots for BFSI",
+        description:"OnFinance.ai raises\n $1.05m to productionize\n their AI agents for BFSI",
         imgSrc:YourStoryImg,
         link:"#"
     },
@@ -36,7 +36,7 @@ const uiData:ArticleCardProps[] = [
     },
     {
         title:"The Financial Express",
-        description:"BFSI can now convert their\n unstructured data into AI\n copilots with NeoGPT",
+        description:"BFSI can now convert their\n unstructured data into AI\n Agents with NeoGPT",
         imgSrc:TheFinExpImg,
         link:"#"
     },
