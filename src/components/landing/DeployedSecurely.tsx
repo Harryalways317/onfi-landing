@@ -33,7 +33,7 @@ const uiData:DeployUIData[] = [
             'Excel extraction of charts',
             'SEBI Research Analyst Guardrails'
         ],
-        link: "#",
+        link: 'mailto:info@onfinance.in?cc=team@onfinance.in',
         toShowLarge:7,
         toShowSmall:3,
         cardNumber:0,
@@ -55,7 +55,7 @@ const uiData:DeployUIData[] = [
             'AI generated audit-ready MIS and PPT',
             'Allow business teams to drag-and-drop compliance workflows'
         ],
-        link: "#",
+        link: 'mailto:info@onfinance.in?cc=team@onfinance.in',
         toShowLarge:7,
         toShowSmall:3,
         cardNumber:1,
@@ -77,7 +77,7 @@ const uiData:DeployUIData[] = [
             'Custom reporting format',
             'Upto 5 document sourcing automations'
         ],
-        link: "#",
+        link: 'mailto:info@onfinance.in?cc=team@onfinance.in',
         toShowLarge:7,
         toShowSmall:3,
         cardNumber:2,
