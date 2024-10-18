@@ -21,17 +21,31 @@ export default function Home() {
       setOpenNav(false);
     }} className='w-screen min-h-screen flex flex-col items-center bg-[#FEFDF5]'>
       <Nav openNav={openNav} setOpenNav={setOpenNav} />
-      <HeroSection/>
-      <WorksWith/>
-      <Certifications/>
-      <AutomateFinance/>
-      <BackedBy/>
-      <NeoGPTSection/>
-      <MediaArticles/>
-      <ReliableSection/>
-      <DeployedSecurely/>
-      <OurBlog/>
-      <Footer/>
+      <div id="hero">
+        <HeroSection />
+      </div>
+      <div id="features">
+        <WorksWith />
+        <Certifications />
+        <AutomateFinance />
+        <BackedBy />
+        <NeoGPTSection />
+      </div>
+      {/* <div id="pricing"> */}
+        <MediaArticles />
+      {/* </div> */}
+    
+        <ReliableSection />
+      <div id="pricing">
+        <DeployedSecurely />
+      </div>
+ 
+      <div id="blogs">
+        <OurBlog />
+        </div>
+        <div id="contact">
+        <Footer />
+      </div>
     </div>
   );
 }

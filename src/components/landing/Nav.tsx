@@ -15,11 +15,11 @@ const Nav:React.FC<NavProps> = ({openNav,setOpenNav}) => {
             <Image src={Logo} alt='logo' className='object-cover' />
         </div>
         <div className='hidden lg:flex items-center justify-center gap-7 text-base poppins-regular text-[#10A68C]'>
-            <a href="#">Why NeoGPT?</a>
-            <a href="#">Features</a>
-            <a href="#">Pricing</a>
-            <a href="#">Blogs</a>
-            <a href="#">Contact</a>
+            <a href="#hero">Why NeoGPT?</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#blogs">Blogs</a>
+            <a href="#contact">Contact</a>
         </div>
           {/* <a href='mailto:info@onfinance.in?cc=team@onfinance.in' className='btn-gradient hidden lg:block rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a> */}
           <div className='block lg:hidden relative w-8 h-8'>
@@ -35,11 +35,11 @@ const Nav:React.FC<NavProps> = ({openNav,setOpenNav}) => {
             }
             {openNav && 
               <div onClick={(e)=>e.stopPropagation()} className='z-[100] absolute right-0 top-10 rounded-xl custom-drop-shadow gap-4 whitespace-pre flex flex-col p-6 bg-[#FFFFFF] text-base poppins-regular text-[#272727]'>
-                <a href="#" >Why NeoGPT?</a>
-                <a href="#" >Features</a>
-                <a href="#" >Pricing</a>
-                <a href="#" >Blogs</a>
-                <a href="#" >Contact</a>
+                <a href="#hero">Why NeoGPT?</a>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#blogs">Blogs</a>
+                <a href="#contact">Contact</a>
                 {/* <a href='#' className='btn-gradient rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a> */}
               </div>
             }
