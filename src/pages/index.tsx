@@ -11,6 +11,7 @@ import ReliableSection from "@/components/landing/ReliabeSection";
 import DeployedSecurely from "@/components/landing/DeployedSecurely";
 import OurBlog from "@/components/landing/OurBlog";
 import Footer from "@/components/landing/Footer";
+import Certifications from "@/components/landing/Certifications";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Nav openNav={openNav} setOpenNav={setOpenNav} />
       <HeroSection/>
       <WorksWith/>
+      <Certifications/>
       <AutomateFinance/>
       <BackedBy/>
       <NeoGPTSection/>
