@@ -26,7 +26,7 @@ const uiData:BlogCardProps[] = [
     {
         title:'ComplianceOS Announcement',
         description:'Visualize a completely disruptive compliance journey powered by NeoGPT ComplianceOS financial agent',
-        link:'https://www.linkedin.com/feed/update/urn:li:activity:7247592422912753665/?actorCompanyId=53268745',
+        link:'https://www.youtube.com/watch?v=UHBxLM8Ghvo&feature=youtu.be',
         tags:[],
         imgSrc:Blog2Img,
     },

@@ -21,7 +21,7 @@ const Nav:React.FC<NavProps> = ({openNav,setOpenNav}) => {
             <a href="#">Blogs</a>
             <a href="#">Contact</a>
         </div>
-          <a href='mailto:info@onfinance.in?cc=team@onfinance.in' className='btn-gradient hidden lg:block rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a>
+          {/* <a href='mailto:info@onfinance.in?cc=team@onfinance.in' className='btn-gradient hidden lg:block rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a> */}
           <div className='block lg:hidden relative w-8 h-8'>
             {openNav ? 
               <Image onClick={(e)=>{
@@ -40,7 +40,7 @@ const Nav:React.FC<NavProps> = ({openNav,setOpenNav}) => {
                 <a href="#" >Pricing</a>
                 <a href="#" >Blogs</a>
                 <a href="#" >Contact</a>
-                <a href='#' className='btn-gradient rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a>
+                {/* <a href='#' className='btn-gradient rounded-[4.5px] text-[13px] text-white exo-2-bold px-[22px] py-[9px]'>Get free trial</a> */}
               </div>
             }
           </div>
