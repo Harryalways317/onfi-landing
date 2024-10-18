@@ -24,9 +24,10 @@ export default function Home() {
       <div id="hero">
         <HeroSection />
       </div>
-      <div id="features">
+   
         <WorksWith />
         <Certifications />
+      <div id="features">
         <AutomateFinance />
         <BackedBy />
         <NeoGPTSection />
