@@ -48,10 +48,10 @@ export default function Home() {
 
       <div id="pricing" className="w-full">
         <DeployedSecurely />
+        <ReliableSection />
       </div>
 
       <div id="blogs" className="w-full">
-        <ReliableSection />
         <OurBlog />
       </div>
 
