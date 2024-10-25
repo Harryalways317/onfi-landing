@@ -36,9 +36,9 @@ const BackedBy = () => {
             <div className='relative mx-1 sm:mx-4 lg:mx-[30px] h-20'>
                 <Image src={BackedBy6} alt='backed-by-6' className='object-cover h-full w-auto' />
             </div>
-            <div className='relative mx-1 sm:mx-4 lg:mx-[30px] h-[67px]'>
+            {/* <div className='relative mx-1 sm:mx-4 lg:mx-[30px] h-[67px]'>
                 <Image src={BackedBy7} alt='backed-by-7' className='object-cover h-full w-auto' />
-            </div>
+            </div> */}
             <div className='relative mx-1 sm:mx-4 lg:mx-[30px] h-[50px]'>
                 <Image src={BackedBy8} alt='backed-by-8' className='object-cover h-full w-auto' />
             </div>
