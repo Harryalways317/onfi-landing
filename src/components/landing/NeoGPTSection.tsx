@@ -16,7 +16,7 @@ const NeoGPTSection = () => {
         <div className='relative w-[95%] xl:w-[80%] pl-10 lg:pl-40'>
           <Image src={NeoGPTChart} alt='neogpt-chart' className='object-cover' />
         </div>
-        <a href='http://docs.google.com/spreadsheets/d/1nzwuxkgfx82vvscbnen9qeosoiak07u0cknhep_fsom/edit?gid=0#gid=0'target="_blank" rel="noopener noreferrer" className='btn-gradient rounded-lg p-[2.5px] mt-[66px]'>
+        <a href='https://docs.google.com/spreadsheets/d/1NZWUXKGfx82VVscBneN9qEoSoiak07u0cKnHEP_fsOM/edit?usp=sharing'target="_blank" rel="noopener noreferrer" className='btn-gradient rounded-lg p-[2.5px] mt-[66px]'>
           <div className='rounded-[5.5px] poppins-bold bg-[#FEFDF5] leading-[31px] text-[#36AA8E] text-[21px] px-9 py-2 md:py-3'>View Results</div>
         </a>
     </div>
